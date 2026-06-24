@@ -1,4 +1,4 @@
-﻿const BANK_URL = "../data/question_bank_v0_2.json";
+﻿const BANK_URL = "../data/question_bank_v0_3.json";
 const HISTORY_KEY = "englishmon.history.v0.1";
 
 const state = {
@@ -69,6 +69,8 @@ function modeName(type) {
   return {
     meaning_sniper: "뜻 스나이퍼",
     definition_sniper: "영어뜻 스나이퍼",
+    definition_one_blank: "영어뜻 한칸",
+    definition_full_input: "영어뜻 전체쓰기",
     cipher_blank: "암호 해독",
     typo_repair: "오타 수리",
     boss_input: "보스 입력",
@@ -78,6 +80,17 @@ function modeName(type) {
 
 function normalizeAnswer(value) {
   return String(value || "").trim().toLowerCase();
+}
+
+function normalizeDefinition(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[“”]/g, "\"")
+    .replace(/[’]/g, "'")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function init() {
@@ -146,6 +159,8 @@ function renderQuestion() {
   if (q.type === "cipher_blank") renderCipherBlank(q);
   if (q.type === "typo_repair") renderTypoRepair(q);
   if (q.type === "boss_input") renderBossInput(q);
+  if (q.type === "definition_one_blank") renderDefinitionOneBlank(q);
+  if (q.type === "definition_full_input") renderDefinitionFullInput(q);
 }
 
 function renderMeaningSniper(q) {
@@ -207,6 +222,32 @@ function renderBossInput(q) {
   focusInput();
 }
 
+
+function renderDefinitionOneBlank(q) {
+  el.promptTitle.textContent = "PDF 영어뜻 한칸을 채워라";
+  el.questionArea.innerHTML = `
+    <div>
+      <div class="big-word">${escapeHtml(q.prompt.word)}</div>
+      <p class="meaning">${escapeHtml(q.prompt.pos)}</p>
+      <div class="definition-box">${escapeHtml(q.prompt.definition_masked)}</div>
+      <input id="answerInput" class="answer-input" autocomplete="off" placeholder="빈칸 단어 입력" />
+    </div>
+  `;
+  focusInput();
+}
+
+function renderDefinitionFullInput(q) {
+  el.promptTitle.textContent = "PDF 영어뜻 전체를 써라";
+  el.questionArea.innerHTML = `
+    <div>
+      <div class="big-word">${escapeHtml(q.prompt.word)}</div>
+      <p class="meaning">${escapeHtml(q.prompt.pos)}</p>
+      <div class="definition-box muted-box">영어 정의 전체를 입력</div>
+      <textarea id="answerInput" class="answer-input textarea-input" autocomplete="off" placeholder="예: a book about a person's life"></textarea>
+    </div>
+  `;
+  focusInput();
+}
 function focusInput() {
   const input = document.querySelector("#answerInput");
   if (!input) return;
@@ -234,7 +275,11 @@ function checkAnswer() {
   } else {
     const input = document.querySelector("#answerInput");
     submitted = input ? input.value : "";
-    isCorrect = normalizeAnswer(submitted) === normalizeAnswer(q.answer);
+    if (q.type === "definition_one_blank" || q.type === "definition_full_input") {
+      isCorrect = normalizeDefinition(submitted) === normalizeDefinition(q.answer);
+    } else {
+      isCorrect = normalizeAnswer(submitted) === normalizeAnswer(q.answer);
+    }
   }
 
   state.checked = true;
@@ -312,4 +357,5 @@ init().catch(err => {
   console.error(err);
   el.questionArea.innerHTML = `<p class="empty">데이터 로드 실패: ${escapeHtml(err.message)}</p>`;
 });
+
 

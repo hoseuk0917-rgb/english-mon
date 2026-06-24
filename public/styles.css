@@ -277,3 +277,25 @@ select, input {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.definition-box {
+  border: 1px solid var(--line);
+  background: var(--card2);
+  border-radius: 18px;
+  padding: 18px;
+  font-size: 22px;
+  line-height: 1.55;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.muted-box {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.textarea-input {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.4;
+}
