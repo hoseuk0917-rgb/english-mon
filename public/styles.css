@@ -1,0 +1,279 @@
+﻿:root {
+  --bg: #0b1020;
+  --card: #141b34;
+  --card2: #10172c;
+  --text: #f5f7ff;
+  --muted: #aeb7d4;
+  --line: #273152;
+  --accent: #7dd3fc;
+  --good: #4ade80;
+  --bad: #fb7185;
+  --warn: #facc15;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 20% 10%, #1d4ed8 0, transparent 24rem),
+    radial-gradient(circle at 85% 0%, #7c3aed 0, transparent 18rem),
+    var(--bg);
+  color: var(--text);
+}
+
+button, select, input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 14px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+button.ghost {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: stretch;
+  margin-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: clamp(30px, 6vw, 52px);
+  letter-spacing: -0.04em;
+}
+
+.sub {
+  color: var(--muted);
+}
+
+.profile {
+  min-width: 130px;
+  border: 1px solid var(--line);
+  background: rgba(20, 27, 52, 0.82);
+  border-radius: 24px;
+  padding: 18px;
+  text-align: center;
+}
+
+.profile-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.profile-score {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.panel, .game-card {
+  border: 1px solid var(--line);
+  background: rgba(20, 27, 52, 0.86);
+  border-radius: 24px;
+  padding: 18px;
+  margin-top: 16px;
+  box-shadow: 0 20px 70px rgba(0,0,0,0.24);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+select, input {
+  min-height: 46px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--card2);
+  color: var(--text);
+  padding: 10px 12px;
+}
+
+.game-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.progress {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.question-area {
+  min-height: 210px;
+  display: grid;
+  gap: 12px;
+  align-content: center;
+}
+
+.empty {
+  color: var(--muted);
+}
+
+.big-word {
+  font-size: clamp(34px, 9vw, 76px);
+  font-weight: 950;
+  letter-spacing: -0.04em;
+  margin-bottom: 8px;
+}
+
+.meaning {
+  color: var(--muted);
+  font-size: 20px;
+}
+
+.masked {
+  font-size: clamp(34px, 8vw, 64px);
+  letter-spacing: 0.08em;
+  font-weight: 950;
+}
+
+.typo {
+  color: var(--warn);
+  text-decoration: line-through;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+}
+
+.option {
+  text-align: left;
+  background: var(--card2);
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+
+.option.selected {
+  border-color: var(--accent);
+  outline: 3px solid rgba(125, 211, 252, 0.2);
+}
+
+.answer-input {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.feedback {
+  min-height: 34px;
+  margin: 6px 0 12px;
+  font-weight: 900;
+}
+
+.feedback.good {
+  color: var(--good);
+}
+
+.feedback.bad {
+  color: var(--bad);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.stats div {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px;
+  display: grid;
+  gap: 4px;
+}
+
+.stats strong {
+  font-size: 28px;
+}
+
+.stats span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    display: block;
+  }
+
+  .profile {
+    margin-top: 14px;
+  }
+
+  .row > * {
+    width: 100%;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

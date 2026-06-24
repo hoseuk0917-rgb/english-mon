@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>영어몬 MVP</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">EnglishMon v0.1</p>
+        <h1>영어몬 단어 탐정단</h1>
+        <p class="sub">영어뜻 스나이퍼 · 암호 해독 · 오타 수리 · 보스 입력</p>
+      </div>
+      <div class="profile">
+        <div class="profile-label">오늘 점수</div>
+        <div id="score" class="profile-score">0</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="row">
+        <label>
+          Unit
+          <select id="unitSelect">
+            <option value="all">전체</option>
+            <option value="4">Unit 4</option>
+            <option value="6">Unit 6</option>
+            <option value="7">Unit 7</option>
+            <option value="8">Unit 8</option>
+            <option value="10">Unit 10</option>
+          </select>
+        </label>
+
+        <label>
+          Mode
+          <select id="modeSelect">
+            <option value="definition_sniper">영어뜻 스나이퍼</option>
+            <option value="cipher_blank">암호 해독</option>
+            <option value="typo_repair">오타 수리</option>
+            <option value="boss_input">보스 입력</option>
+            <option value="mixed">랜덤 미션</option>
+          </select>
+        </label>
+
+        <button id="startBtn">미션 시작</button>
+      </div>
+    </section>
+
+    <section class="game-card">
+      <div class="game-top">
+        <div>
+          <p id="modeBadge" class="badge">대기 중</p>
+          <h2 id="promptTitle">미션을 시작해줘</h2>
+        </div>
+        <div class="progress">
+          <span id="progressText">0 / 10</span>
+        </div>
+      </div>
+
+      <div id="questionArea" class="question-area">
+        <p class="empty">시작 버튼을 누르면 문제가 나온다.</p>
+      </div>
+
+      <div id="feedback" class="feedback"></div>
+
+      <div class="actions">
+        <button id="checkBtn" disabled>정답 확인</button>
+        <button id="nextBtn" disabled>다음 문제</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h3>개인 이력</h3>
+      <div class="stats">
+        <div><strong id="seenCount">0</strong><span>푼 문제</span></div>
+        <div><strong id="correctCount">0</strong><span>정답</span></div>
+        <div><strong id="wrongCount">0</strong><span>오답</span></div>
+        <div><strong id="weakCount">0</strong><span>오답 단어</span></div>
+      </div>
+      <button id="resetBtn" class="ghost">개인 이력 초기화</button>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+
