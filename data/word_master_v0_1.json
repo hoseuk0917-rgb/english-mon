@@ -1,0 +1,1528 @@
+{
+  "schema_version": "englishmon.word_master.v0.1",
+  "title": "EnglishMon Word Master v0.1",
+  "source": {
+    "file": "2_1_final_english.pdf",
+    "original_file_note": "Uploaded source was 2_1 Korean final English PDF. ASCII filename is used to avoid Windows encoding issues.",
+    "units": [
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    "total_words": 100
+  },
+  "validation": {
+    "expected_total_words": 100,
+    "expected_unit_counts": {
+      "unit_4": 20,
+      "unit_6": 20,
+      "unit_7": 20,
+      "unit_8": 20,
+      "unit_10": 20
+    }
+  },
+  "words": [
+    {
+      "word_id": "U04-001",
+      "unit": 4,
+      "book_page": 20,
+      "word": "biography",
+      "pos": "n.",
+      "meaning_ko": "전기, 일대기",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-002",
+      "unit": 4,
+      "book_page": 20,
+      "word": "brilliant",
+      "pos": "adj.",
+      "meaning_ko": "매우 똑똑한, 재능 있는, 훌륭한",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-003",
+      "unit": 4,
+      "book_page": 20,
+      "word": "calendar",
+      "pos": "n.",
+      "meaning_ko": "달력, 일정표",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-004",
+      "unit": 4,
+      "book_page": 20,
+      "word": "coupon",
+      "pos": "n.",
+      "meaning_ko": "쿠폰, 할인권",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-005",
+      "unit": 4,
+      "book_page": 20,
+      "word": "crossword",
+      "pos": "n.",
+      "meaning_ko": "십자말풀이",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-006",
+      "unit": 4,
+      "book_page": 20,
+      "word": "crush",
+      "pos": "v.",
+      "meaning_ko": "으깨다, 찌그러뜨리다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-007",
+      "unit": 4,
+      "book_page": 20,
+      "word": "differ",
+      "pos": "v.",
+      "meaning_ko": "다르다, 차이가 나다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-008",
+      "unit": 4,
+      "book_page": 20,
+      "word": "organic",
+      "pos": "adj.",
+      "meaning_ko": "유기농의, 화학물질을 쓰지 않은",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-009",
+      "unit": 4,
+      "book_page": 20,
+      "word": "pea",
+      "pos": "n.",
+      "meaning_ko": "완두콩",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-010",
+      "unit": 4,
+      "book_page": 20,
+      "word": "reputation",
+      "pos": "n.",
+      "meaning_ko": "평판, 명성",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-011",
+      "unit": 4,
+      "book_page": 22,
+      "word": "bargain",
+      "pos": "n.",
+      "meaning_ko": "싸게 산 물건, 특가품",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-012",
+      "unit": 4,
+      "book_page": 22,
+      "word": "basically",
+      "pos": "adv.",
+      "meaning_ko": "기본적으로, 대체로",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-013",
+      "unit": 4,
+      "book_page": 22,
+      "word": "caffeine",
+      "pos": "n.",
+      "meaning_ko": "카페인",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-014",
+      "unit": 4,
+      "book_page": 22,
+      "word": "carton",
+      "pos": "n.",
+      "meaning_ko": "종이 상자, 음료 팩",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-015",
+      "unit": 4,
+      "book_page": 22,
+      "word": "deposit",
+      "pos": "v.",
+      "meaning_ko": "입금하다, 맡기다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-016",
+      "unit": 4,
+      "book_page": 22,
+      "word": "forbid",
+      "pos": "v.",
+      "meaning_ko": "금지하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-017",
+      "unit": 4,
+      "book_page": 22,
+      "word": "pickle",
+      "pos": "v.",
+      "meaning_ko": "절이다, 피클로 만들다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-018",
+      "unit": 4,
+      "book_page": 22,
+      "word": "pork",
+      "pos": "n.",
+      "meaning_ko": "돼지고기",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-019",
+      "unit": 4,
+      "book_page": 22,
+      "word": "suburb",
+      "pos": "n.",
+      "meaning_ko": "교외, 근교",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U04-020",
+      "unit": 4,
+      "book_page": 22,
+      "word": "whereas",
+      "pos": "conj.",
+      "meaning_ko": "반면에, ~인 반면",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-001",
+      "unit": 6,
+      "book_page": 32,
+      "word": "asteroid",
+      "pos": "n.",
+      "meaning_ko": "소행성",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-002",
+      "unit": 6,
+      "book_page": 32,
+      "word": "cable",
+      "pos": "n.",
+      "meaning_ko": "케이블, 전선",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-003",
+      "unit": 6,
+      "book_page": 32,
+      "word": "circumstance",
+      "pos": "n.",
+      "meaning_ko": "상황, 환경, 사정",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-004",
+      "unit": 6,
+      "book_page": 32,
+      "word": "crater",
+      "pos": "n.",
+      "meaning_ko": "분화구, 운석 구덩이",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-005",
+      "unit": 6,
+      "book_page": 32,
+      "word": "defense",
+      "pos": "n.",
+      "meaning_ko": "방어, 수비, 방위",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-006",
+      "unit": 6,
+      "book_page": 32,
+      "word": "emit",
+      "pos": "v.",
+      "meaning_ko": "내뽜다, 방출하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-007",
+      "unit": 6,
+      "book_page": 32,
+      "word": "galaxy",
+      "pos": "n.",
+      "meaning_ko": "은하",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-008",
+      "unit": 6,
+      "book_page": 32,
+      "word": "incident",
+      "pos": "n.",
+      "meaning_ko": "사건, 사고",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-009",
+      "unit": 6,
+      "book_page": 32,
+      "word": "launch",
+      "pos": "v.",
+      "meaning_ko": "발사하다, 시작하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-010",
+      "unit": 6,
+      "book_page": 32,
+      "word": "massive",
+      "pos": "adj.",
+      "meaning_ko": "거대한, 대규모의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-011",
+      "unit": 6,
+      "book_page": 34,
+      "word": "authority",
+      "pos": "n.",
+      "meaning_ko": "권한, 권위",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-012",
+      "unit": 6,
+      "book_page": 34,
+      "word": "clone",
+      "pos": "v.",
+      "meaning_ko": "복제하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-013",
+      "unit": 6,
+      "book_page": 34,
+      "word": "comet",
+      "pos": "n.",
+      "meaning_ko": "혜성",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-014",
+      "unit": 6,
+      "book_page": 34,
+      "word": "diagram",
+      "pos": "n.",
+      "meaning_ko": "도표, 그림, 도식",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-015",
+      "unit": 6,
+      "book_page": 34,
+      "word": "encounter",
+      "pos": "v.",
+      "meaning_ko": "마주치다, 겪다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-016",
+      "unit": 6,
+      "book_page": 34,
+      "word": "geology",
+      "pos": "n.",
+      "meaning_ko": "지질학",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-017",
+      "unit": 6,
+      "book_page": 34,
+      "word": "lens",
+      "pos": "n.",
+      "meaning_ko": "렌즈",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-018",
+      "unit": 6,
+      "book_page": 34,
+      "word": "originate",
+      "pos": "v.",
+      "meaning_ko": "비롯되다, 유래하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-019",
+      "unit": 6,
+      "book_page": 34,
+      "word": "spacecraft",
+      "pos": "n.",
+      "meaning_ko": "우주선",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U06-020",
+      "unit": 6,
+      "book_page": 34,
+      "word": "steel",
+      "pos": "n.",
+      "meaning_ko": "강철",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-001",
+      "unit": 7,
+      "book_page": 36,
+      "word": "Aboriginal",
+      "pos": "adj.",
+      "meaning_ko": "호주 원주민의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-002",
+      "unit": 7,
+      "book_page": 36,
+      "word": "campfire",
+      "pos": "n.",
+      "meaning_ko": "캠프파이어, 모닥불",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-003",
+      "unit": 7,
+      "book_page": 36,
+      "word": "chronological",
+      "pos": "adj.",
+      "meaning_ko": "시간 순서의, 연대순의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-004",
+      "unit": 7,
+      "book_page": 36,
+      "word": "footstep",
+      "pos": "n.",
+      "meaning_ko": "발소리, 발자국",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-005",
+      "unit": 7,
+      "book_page": 36,
+      "word": "gear",
+      "pos": "n.",
+      "meaning_ko": "장비, 용품",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-006",
+      "unit": 7,
+      "book_page": 36,
+      "word": "inhabit",
+      "pos": "v.",
+      "meaning_ko": "살다, 서식하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-007",
+      "unit": 7,
+      "book_page": 36,
+      "word": "migrate",
+      "pos": "v.",
+      "meaning_ko": "이동하다, 이주하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-008",
+      "unit": 7,
+      "book_page": 36,
+      "word": "priority",
+      "pos": "n.",
+      "meaning_ko": "우선순위",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-009",
+      "unit": 7,
+      "book_page": 36,
+      "word": "shrink",
+      "pos": "v.",
+      "meaning_ko": "줄어들다, 오그라들다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-010",
+      "unit": 7,
+      "book_page": 36,
+      "word": "vast",
+      "pos": "adj.",
+      "meaning_ko": "광대한, 거대한",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-011",
+      "unit": 7,
+      "book_page": 38,
+      "word": "alert",
+      "pos": "adj.",
+      "meaning_ko": "기민한, 정신을 바? 차린",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-012",
+      "unit": 7,
+      "book_page": 38,
+      "word": "canyon",
+      "pos": "n.",
+      "meaning_ko": "협곡",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-013",
+      "unit": 7,
+      "book_page": 38,
+      "word": "conquer",
+      "pos": "v.",
+      "meaning_ko": "정복하다, 극복하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-014",
+      "unit": 7,
+      "book_page": 38,
+      "word": "controversial",
+      "pos": "adj.",
+      "meaning_ko": "논란이 많은",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-015",
+      "unit": 7,
+      "book_page": 38,
+      "word": "dawn",
+      "pos": "n.",
+      "meaning_ko": "새벽, 동틀 무렵",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-016",
+      "unit": 7,
+      "book_page": 38,
+      "word": "harmony",
+      "pos": "n.",
+      "meaning_ko": "조화, 화합",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-017",
+      "unit": 7,
+      "book_page": 38,
+      "word": "inhabitant",
+      "pos": "n.",
+      "meaning_ko": "주민, 서식 동물",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-018",
+      "unit": 7,
+      "book_page": 38,
+      "word": "nevertheless",
+      "pos": "adv.",
+      "meaning_ko": "그럼에도 불구하고",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-019",
+      "unit": 7,
+      "book_page": 38,
+      "word": "occupy",
+      "pos": "v.",
+      "meaning_ko": "차지하다, 점유하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U07-020",
+      "unit": 7,
+      "book_page": 38,
+      "word": "paddle",
+      "pos": "v.",
+      "meaning_ko": "노를 젓다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-001",
+      "unit": 8,
+      "book_page": 40,
+      "word": "hacker",
+      "pos": "n.",
+      "meaning_ko": "해커",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-002",
+      "unit": 8,
+      "book_page": 40,
+      "word": "harsh",
+      "pos": "adj.",
+      "meaning_ko": "가혹한, 혹독한",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-003",
+      "unit": 8,
+      "book_page": 40,
+      "word": "industrial",
+      "pos": "adj.",
+      "meaning_ko": "산업의, 공업의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-004",
+      "unit": 8,
+      "book_page": 40,
+      "word": "lottery",
+      "pos": "n.",
+      "meaning_ko": "복권, 추첨",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-005",
+      "unit": 8,
+      "book_page": 40,
+      "word": "millionaire",
+      "pos": "n.",
+      "meaning_ko": "백만장자, 부자",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-006",
+      "unit": 8,
+      "book_page": 40,
+      "word": "obtain",
+      "pos": "v.",
+      "meaning_ko": "얻다, 획득하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-007",
+      "unit": 8,
+      "book_page": 40,
+      "word": "resort",
+      "pos": "n.",
+      "meaning_ko": "휴양지, 리조트",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-008",
+      "unit": 8,
+      "book_page": 40,
+      "word": "skyscraper",
+      "pos": "n.",
+      "meaning_ko": "고층 건물, 마천루",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-009",
+      "unit": 8,
+      "book_page": 40,
+      "word": "tempt",
+      "pos": "v.",
+      "meaning_ko": "유혹하다, 하고 싶게 만들다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-010",
+      "unit": 8,
+      "book_page": 40,
+      "word": "virtual",
+      "pos": "adj.",
+      "meaning_ko": "가상의, 컴퓨터상의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-011",
+      "unit": 8,
+      "book_page": 42,
+      "word": "inspector",
+      "pos": "n.",
+      "meaning_ko": "검사관, 조사관",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-012",
+      "unit": 8,
+      "book_page": 42,
+      "word": "invest",
+      "pos": "v.",
+      "meaning_ko": "투자하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-013",
+      "unit": 8,
+      "book_page": 42,
+      "word": "luxury",
+      "pos": "adj.",
+      "meaning_ko": "고급의, 사치스러운",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-014",
+      "unit": 8,
+      "book_page": 42,
+      "word": "motorcycle",
+      "pos": "n.",
+      "meaning_ko": "오토바이",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-015",
+      "unit": 8,
+      "book_page": 42,
+      "word": "orphan",
+      "pos": "n.",
+      "meaning_ko": "고아",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-016",
+      "unit": 8,
+      "book_page": 42,
+      "word": "slope",
+      "pos": "n.",
+      "meaning_ko": "경사면, 비탈",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-017",
+      "unit": 8,
+      "book_page": 42,
+      "word": "snowboard",
+      "pos": "v.",
+      "meaning_ko": "스노보드를 타다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-018",
+      "unit": 8,
+      "book_page": 42,
+      "word": "snowman",
+      "pos": "n.",
+      "meaning_ko": "눈사람",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-019",
+      "unit": 8,
+      "book_page": 42,
+      "word": "terrific",
+      "pos": "adj.",
+      "meaning_ko": "아주 멋진, 훌륭한",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U08-020",
+      "unit": 8,
+      "book_page": 42,
+      "word": "tire",
+      "pos": "n.",
+      "meaning_ko": "타이어",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-001",
+      "unit": 10,
+      "book_page": 48,
+      "word": "aerobic",
+      "pos": "adj.",
+      "meaning_ko": "유산소의, 산소를 필요로 하는",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-002",
+      "unit": 10,
+      "book_page": 48,
+      "word": "devoted",
+      "pos": "adj.",
+      "meaning_ko": "헌신적인, 충실한",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-003",
+      "unit": 10,
+      "book_page": 48,
+      "word": "fitness",
+      "pos": "n.",
+      "meaning_ko": "체력, 건강 상태",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-004",
+      "unit": 10,
+      "book_page": 48,
+      "word": "glance",
+      "pos": "v.",
+      "meaning_ko": "힐끗 보다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-005",
+      "unit": 10,
+      "book_page": 48,
+      "word": "gymnastics",
+      "pos": "n.",
+      "meaning_ko": "체조",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-006",
+      "unit": 10,
+      "book_page": 48,
+      "word": "hesitate",
+      "pos": "v.",
+      "meaning_ko": "망설이다, 주저하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-007",
+      "unit": 10,
+      "book_page": 48,
+      "word": "melody",
+      "pos": "n.",
+      "meaning_ko": "멜로디, 선율",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-008",
+      "unit": 10,
+      "book_page": 48,
+      "word": "register",
+      "pos": "v.",
+      "meaning_ko": "등록하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-009",
+      "unit": 10,
+      "book_page": 48,
+      "word": "sleeve",
+      "pos": "n.",
+      "meaning_ko": "소매",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-010",
+      "unit": 10,
+      "book_page": 48,
+      "word": "specialize",
+      "pos": "v.",
+      "meaning_ko": "전문으로 하다, 전공하다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-011",
+      "unit": 10,
+      "book_page": 50,
+      "word": "occasionally",
+      "pos": "adv.",
+      "meaning_ko": "가끔, 때때로",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-012",
+      "unit": 10,
+      "book_page": 50,
+      "word": "pure",
+      "pos": "adj.",
+      "meaning_ko": "순수한, 섞이지 않은",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-013",
+      "unit": 10,
+      "book_page": 50,
+      "word": "raw",
+      "pos": "adj.",
+      "meaning_ko": "날것의, 익히지 않은",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-014",
+      "unit": 10,
+      "book_page": 50,
+      "word": "reject",
+      "pos": "v.",
+      "meaning_ko": "거절하다, 받아들이지 않다",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-015",
+      "unit": 10,
+      "book_page": 50,
+      "word": "rumor",
+      "pos": "n.",
+      "meaning_ko": "소문",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-016",
+      "unit": 10,
+      "book_page": 50,
+      "word": "sunrise",
+      "pos": "n.",
+      "meaning_ko": "해돋이, 일출",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-017",
+      "unit": 10,
+      "book_page": 50,
+      "word": "tobacco",
+      "pos": "n.",
+      "meaning_ko": "담배, 담뱃잎",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-018",
+      "unit": 10,
+      "book_page": 50,
+      "word": "vegetarian",
+      "pos": "adj.",
+      "meaning_ko": "채식주의의, 채식의",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-019",
+      "unit": 10,
+      "book_page": 50,
+      "word": "workout",
+      "pos": "n.",
+      "meaning_ko": "운동, 신체 훈련",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    },
+    {
+      "word_id": "U10-020",
+      "unit": 10,
+      "book_page": 50,
+      "word": "zipper",
+      "pos": "n.",
+      "meaning_ko": "지퍼",
+      "source_file": "2_1_final_english.pdf",
+      "mastery": {
+        "meaning": 0,
+        "spelling": 0,
+        "sentence": 0,
+        "boss": 0
+      }
+    }
+  ]
+}

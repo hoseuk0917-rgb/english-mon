@@ -1,0 +1,4 @@
+﻿logs/
+__pycache__/
+*.pyc
+scripts/create_word_master_v0_1_BROKEN_BACKUP.ps1
